@@ -4,7 +4,7 @@ Bu proje, gerçek zamanlı döviz kurlarını kullanarak para birimlerini çevir
 
 ## 🚀 Canlı Demo
 
-[**🔗 Uygulamayı Görüntüle**](https://your-github-username.github.io/107_DovizApp/)
+[**🔗 Uygulamayı Görüntüle**](https://melihcandemir.github.io/Currency/)
 
 ## ✨ Özellikler
 
