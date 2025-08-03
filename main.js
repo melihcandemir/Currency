@@ -22,8 +22,8 @@ const currency = new Currency();
 runEventListeners();
 
 function runEventListeners() {
-  // amountInput.addEventListener("input", exchange);
-  // amountInputMobile.addEventListener("input", exchange);
+  amountInput.addEventListener("input", exchange);
+  amountInputMobile.addEventListener("input", exchange);
   convertBtn.addEventListener("click", exchange);
 }
 

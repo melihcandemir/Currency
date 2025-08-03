@@ -81,8 +81,29 @@
             </div>
 
             <!-- Ok İkonu -->
-            <div class="flex-shrink-0">
+            <!-- <div class="flex-shrink-0">
               <i class="fa-solid fa-arrow-right text-2xl text-gray-600"></i>
+            </div> -->
+
+            <div class="flex-shrink-0">
+              <svg
+                id="swapIcon"
+                class="w-6 h-6 text-gray-600 rotate-90 cursor-pointer transition-all duration-300 hover:scale-110 hover:text-orange-500 active:scale-95"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8 20V7m0 13-4-4m4 4 4-4m4-12v13m0-13 4 4m-4-4-4 4"
+                />
+              </svg>
             </div>
 
             <!-- To Currency -->
@@ -194,10 +215,31 @@
             </div>
 
             <!-- Ok İkonu - Ortalanmış -->
-            <div class="flex justify-center">
+            <!-- <div class="flex justify-center">
               <div class="rounded-full p-3">
                 <i class="fa-solid fa-arrow-down text-xl text-gray-600"></i>
               </div>
+            </div> -->
+
+            <div class="flex justify-center">
+              <svg
+                id="swapIconMobile"
+                class="w-6 h-6 text-gray-600 cursor-pointer transition-all duration-300 hover:scale-110 hover:text-orange-500 active:scale-95"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8 20V7m0 13-4-4m4 4 4-4m4-12v13m0-13 4 4m-4-4-4 4"
+                />
+              </svg>
             </div>
 
             <!-- İkinci Satır: To Currency ve Sonuç -->
@@ -272,6 +314,7 @@
       </div>
     </div>
 
+    <script src="./arrow.js"></script>
     <script src="./currency.js"></script>
     <script src="./main.js"></script>
   </body>
